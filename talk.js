@@ -10,7 +10,7 @@ $(function () {
   // 开始放烟花
   initAnimate();
   $("#yes").click(function (event) {
-    modal("哼，就知道你会愿意的！(^_^)", function () {
+    modal("嘿嘿，就知道你会愿意的！(^_^)", function () {
       $(".page_one").addClass("hide");
       $(".page_two").removeClass("hide");
       typeWrite();
